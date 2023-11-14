@@ -1,0 +1,109 @@
+{
+  "anecdotes": [
+    {
+      "content": "If it hurts, do it more often",
+      "id": "47145",
+      "votes": 1
+    },
+    {
+      "content": "Adding manpower to a late software project makes it later!",
+      "id": "21149",
+      "votes": 5
+    },
+    {
+      "content": "The first 90 percent of the code accounts for the first 10 percent of the development time...The remaining 10 percent of the code accounts for the other 90 percent of the development time.",
+      "id": "69581",
+      "votes": 1
+    },
+    {
+      "content": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+      "id": "36975",
+      "votes": 0
+    },
+    {
+      "content": "Premature optimization is the root of all evil.",
+      "id": "25170",
+      "votes": 0
+    },
+    {
+      "content": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
+      "id": "98312",
+      "votes": 1
+    },
+    {
+      "content": "Redux and reducers are difficult topics",
+      "id": "85455",
+      "votes": 2
+    },
+    {
+      "content": "Halloween is on October 31th",
+      "id": "67322",
+      "votes": 0
+    },
+    {
+      "content": "Dia de Muertos is on November 2nd",
+      "id": "35019",
+      "votes": 1
+    },
+    {
+      "content": "Dia de la revolucion is on 20th October",
+      "id": "57207",
+      "votes": 0
+    },
+    {
+      "content": "Sugar can damage your teeth",
+      "id": "39331",
+      "votes": 0
+    },
+    {
+      "content": "Reading books could incremenet your knowledge",
+      "id": "73822",
+      "votes": 1
+    },
+    {
+      "content": "Exercising is good for your health",
+      "id": "69352",
+      "votes": 0
+    },
+    {
+      "content": "Radio was discovered by Marie Curie",
+      "id": "73351",
+      "votes": 1
+    },
+    {
+      "content": "Microsoft is one of the most important informatic companies",
+      "id": "58998",
+      "votes": 0
+    },
+    {
+      "content": "Mexico has likely 130 millions of people",
+      "id": "79201",
+      "votes": 0
+    },
+    {
+      "content": "America was discovered in 1492",
+      "id": "91991",
+      "votes": 0
+    },
+    {
+      "content": "The biggest animal on the earth is the whale",
+      "id": "97600",
+      "votes": 0
+    },
+    {
+      "content": "Madagascar is an island situated in Africa",
+      "id": "9855",
+      "votes": 0
+    },
+    {
+      "content": "Steve Jobs was cofounder of Apple company",
+      "id": "82024",
+      "votes": 0
+    },
+    {
+      "content": "Tacos is a dish from Mexico",
+      "id": "68138",
+      "votes": 5
+    }
+  ]
+}
