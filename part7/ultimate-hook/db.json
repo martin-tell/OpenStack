@@ -1,0 +1,65 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "content": "custom-hooks are awesome!"
+    },
+    {
+      "id": 2,
+      "content": "best feature ever <3"
+    },
+    {
+      "content": "the react course is long!",
+      "id": 3
+    },
+    {
+      "content": "Another note",
+      "id": 4
+    },
+    {
+      "content": "hola",
+      "id": 5
+    },
+    {
+      "content": "xd",
+      "id": 6
+    }
+  ],
+  "persons": [
+    {
+      "id": 1,
+      "name": "mluukkai",
+      "number": "040-5483923"
+    },
+    {
+      "id": 2,
+      "name": "hellas",
+      "number": "012-123123"
+    },
+    {
+      "name": "peter griffin",
+      "number": "1234567890",
+      "id": 3
+    },
+    {
+      "name": "homer simpson",
+      "number": "1234567899",
+      "id": 4
+    },
+    {
+      "name": "fat n",
+      "number": "123456788",
+      "id": 5
+    },
+    {
+      "name": "pepito",
+      "number": "123456781",
+      "id": 6
+    },
+    {
+      "name": "juan",
+      "number": "123456780",
+      "id": 7
+    }
+  ]
+}
