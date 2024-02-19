@@ -3,7 +3,7 @@ import { ALL_AUTHORS, EDIT_BIRTHYEAR } from "../queries"
 import { useState } from "react"
 import Select from "react-select"
 
-const Authors = (props) => {
+const Authors = ({show, token}) => {
 
   const { loading, error, data } = useQuery(ALL_AUTHORS)
 
@@ -14,7 +14,7 @@ const Authors = (props) => {
   const [author, setAuthor] = useState(null)
   const [birthyear, setBirthyear] = useState(0)
 
-  if (!props.show) {
+  if (!show) {
     return null
   }
 
@@ -40,7 +40,7 @@ const Authors = (props) => {
       })
       console.log(result.data.editAuthor)
     } catch (error) {
-      console.error(error);
+      console.error(error)
     } finally {
       setAuthor('')
       setBirthyear(0)
@@ -66,22 +66,24 @@ const Authors = (props) => {
           ))}
         </tbody>
       </table>
-      <h3>Set birthyear</h3>
-      <form onSubmit={submit}>
-        <Select 
-          value={author}
-          onChange={setAuthor}
-          options={options}
-        />
-        born
-        <input 
-          type="text"
-          value={birthyear}
-          onChange={({ target }) => setBirthyear(target.value)}
-        />
-        <br />
-        <button>update author</button>
-      </form>
+      <div style={{ display: token ? 'inline' : 'none' }}>
+        <h3>Set birthyear</h3>
+        <form onSubmit={submit}>
+          <Select 
+            value={author}
+            onChange={setAuthor}
+            options={options}
+          />
+          born
+          <input 
+            type="text"
+            value={birthyear}
+            onChange={({ target }) => setBirthyear(target.value)}
+          />
+          <br />
+          <button>update author</button>
+        </form>
+      </div>
     </div>
   )
 }
